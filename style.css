@@ -1,0 +1,62 @@
+h1{
+	color: black;
+}
+
+
+body{
+	background-color: white;
+}
+
+div{
+	width: 150px;
+	height:  150px;
+	background-color: white;
+	position: relative;
+	animation: myAnimation 3s linear 2s infinite;
+}
+
+@keyframes myAnimation{
+	0% {
+	background-color: white;
+	left: 0px;
+	top: 0px;
+	}
+	25% {
+		background-color: black;
+	left: 200px;
+	top: 0px;
+
+	}
+	75%{
+		background-color: white;
+	left: 0px;
+	top: 0px;
+	}
+	100%{
+		background-color: black;
+	left: 0px;
+	top: 0px;
+	}
+}
+
+
+
+button{
+	backgroumd-color: white;
+	border-color: black;
+	font-size: 10px;
+	border-radius: 15%;
+	padding: 10px;
+}
+
+
+button:hover{
+	background-color: ;
+}
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: underline;
+}
