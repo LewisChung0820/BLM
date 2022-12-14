@@ -57,6 +57,24 @@ a{
 	text-decoration: none;
 
 }
+.text-bold{
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+}
+.start{
+	margin: 0;
+}
+p{
+	margin-right: 700px;
+	margin-left: 50px;
+}
 a:hover{
 	text-decoration: underline;
+}
+
+.myh5{
+	color: red;
+}
+
 }
